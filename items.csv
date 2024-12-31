@@ -1,0 +1,25 @@
+weather_type,essential_item,max_temp_friendly,bonus_item
+Clouds,Cozy hoodie of greatness,5,Hot cocoa sachet (instant coziness)
+Clouds,Over-the-top scarf,10,Journal for weather musings
+Clouds,Chic rain poncho (it's a vibe),15,Folding umbrella (surprise-proof)
+
+Thunderstorm,Super umbrella (aka portable fortress),0,Waterproof bag for gadgets
+Thunderstorm,Rain-deflector jacket (sounds cooler than it is),10,Wind-resistant hat (fancy physics)
+Thunderstorm,Lightning-proof optimism,15,Rubber ducky boots (quirky and safe)
+
+Clear,Sunglasses that make you a legend,30,Wide-brimmed hat for sun drama
+Clear,Stylish windbreaker,20,Reusable water bottle (hydration station)
+Clear,Vintage sunhat (time-travel chic),15,Light scarf (for the air of mystery)
+
+Rain,Rain boots with secret compartments,10,Extra socks (dry feet = happy you)
+Rain,Funky patterned raincoat,15,Book on "How to Enjoy Rain More"
+Rain,Puddle-proof shoes,5,Foldable towel (you're a rain ninja)
+
+Snow,Fluffiest puffer jacket imaginable,-5,Mittens that double as hand puppets
+Snow,Snow goggles with flair,-10,"Anti-slip boots (practical = cool)"
+Snow,Supreme earwarmers (art meets utility),-15,Fleece-lined thermal pants (the game changer)
+
+Hail,Hail-proof jacket (or so we hope),0,Portable mini-shield (handheld roof)
+Hail,Helmet of hail deflection,10,Weatherproof backpack for safety
+Hail,Beanie of unexpected toughness,5,Candy stash for morale
+

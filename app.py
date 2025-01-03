@@ -1,10 +1,12 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import requests
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 APIKEY = "5a226cff73d2d2fba6eb7353b29b7e5b"
- 
+
 def fetch_weather_data(lat, lon):
     url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={APIKEY}"
     payload = {}
@@ -24,8 +26,8 @@ def fetch_weather_data(lat, lon):
 
 @app.route('/getInfo', methods=['GET'])
 def getWeather():
-    lat = 32.21
-    lon = 23.46
+    lat = 60.99
+    lon = 58.12
 
     if not lat or not lon:
         return jsonify({"error": "Missing latitude or longitude"}), 400
@@ -33,7 +35,7 @@ def getWeather():
     weather_data = fetch_weather_data(lat, lon)
     if not weather_data:
         return jsonify({"error": "Could not fetch weather data"}), 500
-        
+
     try:
         response_data = {
             "coordinates": {

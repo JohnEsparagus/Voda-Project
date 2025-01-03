@@ -26,8 +26,8 @@ def fetch_weather_data(lat, lon):
 
 @app.route('/getInfo', methods=['GET'])
 def getWeather():
-    lat = request.args.get('lat')
-    lon = request.args.get('lon')
+    lat = 60.99
+    lon = 58.12
 
     if not lat or not lon:
         return jsonify({"error": "Missing latitude or longitude"}), 400

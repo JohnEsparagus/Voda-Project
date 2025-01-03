@@ -54,7 +54,7 @@ const App = () => {
             <p className="text-black">Clouds: {weatherData.clouds}%</p>
 	  </div>
         </div>
-        <div className="bg-gray-100 text-center p-4">
+        <div className="bg-gray-100 text-red-500 text-center p-4">
           <p>Sunrise: {new Date(weatherData.sunrise * 1000).toLocaleTimeString()}</p>
           <p>Sunset: {new Date(weatherData.sunset * 1000).toLocaleTimeString()}</p>
         </div>
